@@ -1,0 +1,51 @@
+/* styles.css */
+
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+input {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.btn {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.list-item button {
+  background-color: #ff3c38;
+}
+
+.list-item button:hover {
+  background-color: #d30000;
+}
+
+.list-item button.edit {
+  background-color: #ffa600;
+}
+
+.list-item button.edit:hover {
+  background-color: #ff8900;
+}
